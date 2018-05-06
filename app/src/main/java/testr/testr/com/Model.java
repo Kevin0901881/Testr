@@ -121,7 +121,7 @@ class Model extends Observable {
             answer.add(new Question(q.number, "-"));
         }
     }
-    
+
     public void initObservers() {
         setChanged();
         notifyObservers();
